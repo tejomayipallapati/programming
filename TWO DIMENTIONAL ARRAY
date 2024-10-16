@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int row,col,array[3][3];
+    for(row=0;row<1;row++){
+        for(col=0;col<3;col++){
+            scanf("%d",&array[3][3]);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
