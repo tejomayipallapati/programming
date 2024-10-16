@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<string.h>
+char str1[10]="teja",c;
+int i,cn=0;
+int main()
+{
+    printf("enter the character to check:");
+    scanf("%c",&c);
+    for(i=0;i<4;i++)
+    {
+        if(c==str1[i])
+        {
+            cn=cn+1;
+        }
+        else
+        {
+            continue;
+        }
+}
+printf("character reapeated %d",cn);
+}
