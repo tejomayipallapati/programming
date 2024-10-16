@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<string.h>
+char string1[10]="Teja",c;
+int i;
+int main()
+{
+    printf("Enter the character that you want to search:");
+    scanf("%c" ,&c);
+    for(i=0;i<6;i++)
+    {
+        if(c=string1[i])
+        {
+        printf("it is present");
+        break;
+    }
+    else
+    {
+        printf("not found");
+    }
+    }
+}
