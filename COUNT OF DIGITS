@@ -1,0 +1,7 @@
+n=int(input("Enter a  number "))
+cn=0
+while n>0:
+    n//=10
+    cn+=1
+print("count",cn)
+   
